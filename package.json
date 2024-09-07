@@ -1,0 +1,18 @@
+{
+  "name": "vm",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^4.1.0"
+  }
+}
