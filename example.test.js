@@ -1,29 +1,11 @@
-
 describe('#sum0()', function () {
 
-
-    it('2 times bigger', function () {
-        console.log('xxx');
-    });
-
-    it('10 times bigger', function () {
-        console.log('xxx');
-        console.log('xxx');
-        console.log('xxx');
-        console.log('xxx');
-
-        console.log('xxx');
-        console.log('xxx');
-
-        console.log('xxx');
-        console.log('xxx');
-
-        console.log('xxx');
-        console.log('xxx');
-
+    it('high memory and execution time', function () {
+        for (let index = 0; index < 1000; index++) {
+            let array = new Array(1000000).fill(0);
+            let sum = array.reduce((acc, val) => acc + val, 0);            
+        }
 
     });
-
 
 });
-

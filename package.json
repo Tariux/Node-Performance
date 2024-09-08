@@ -13,6 +13,8 @@
   "dependencies": {
     "chai": "^4.5.0",
     "fs": "^0.0.1-security",
-    "mocha": "^4.1.0"
+    "isolated-vm": "^5.0.1",
+    "mocha": "^4.1.0",
+    "vm2": "^3.9.19"
   }
 }
